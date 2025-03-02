@@ -5,6 +5,7 @@ const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
 console.log('API Key:', apiKey);
 
+
 const getWeatherData = async (city) => {
   try {
     const response = await axios.get(apiUrl, {
