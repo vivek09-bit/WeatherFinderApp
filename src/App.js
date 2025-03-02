@@ -8,7 +8,6 @@ const App = () => {
     <>
     <Header />
     <div className='row'>
-
       <WeatherSearch />
     </div>
     <Footer />
